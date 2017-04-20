@@ -14,7 +14,9 @@ public class G2AUI extends JFrame {
 	/**
 	 * Launch the application.
 	 */
+	
 	public static void main(String[] args) {
+		System.out.println("o que");
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
