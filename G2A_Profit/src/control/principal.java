@@ -3,10 +3,10 @@ package control;
 import java.awt.EventQueue;
 
 import vista.G2AUI;
+import vista.HistorialUI;
 
 public class principal {
 	public static void main(String[] args) {
-		System.out.println("o que");
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
@@ -17,5 +17,6 @@ public class principal {
 				}
 			}
 		});
+		
 	}
 }
