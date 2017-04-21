@@ -13,6 +13,8 @@ public class principal {
 				try {
 					G2AUI frame = new G2AUI();
 					frame.setVisible(true);
+					
+
 				} catch (Exception e) {
 					e.printStackTrace();
 				}

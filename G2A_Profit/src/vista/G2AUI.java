@@ -101,6 +101,8 @@ public class G2AUI extends JFrame {
 						try {
 							HistorialUI frame = new HistorialUI();
 							frame.setVisible(true);
+							frame.setLocation(600, 300);
+							frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
 						} catch (Exception e) {
 							e.printStackTrace();
 						}
